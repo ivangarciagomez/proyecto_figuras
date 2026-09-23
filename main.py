@@ -5,6 +5,9 @@ lado=4
 print (f"El área de un {cuadrado.get_identificador()} de lado {lado} es:  "
        f"{cuadrado.get_area (lado)} y el perimetro es {cuadrado.get_perimetro(lado)}")
 
+
+
+from lib import rectangulo
 base=4
 altura=2
 print(rectangulo.get_identificador())
